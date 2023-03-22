@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-conteudo{
+    background-color: brown;
+    height: 500px;
+    width: 500px;
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 5px;
+   
+}
+
+input{
+    padding: 10px;
+    border: none;
+}
+
+button{
+    padding: 10px;
+    border: none;
+}
+
+
+.coisas{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 5px;
+}
+
+
+
+.coisas{
+    position: relative;
+}
+.coisas{
+    top: -200px;
+    left: 110px;
+}
