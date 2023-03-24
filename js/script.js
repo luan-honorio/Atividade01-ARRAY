@@ -25,7 +25,7 @@ if(adicionar.toUpperCase()  === 'cadeira' || adicionar.toLowerCase() ==='impress
     objetos.push (adicionar)
     console.log(objetos)
  }
-   lista.textContent = `${objetos}`
+   
 
  
  const ordem = document.getElementById('ordem')
@@ -35,7 +35,7 @@ if(adicionar.toUpperCase()  === 'cadeira' || adicionar.toLowerCase() ==='impress
     
     console.log(ordemA.sort())
     
-    AA.textContent = `${ordemA}`
+ 
 
  })
  
